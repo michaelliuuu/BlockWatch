@@ -1,0 +1,17 @@
+{    
+    "manifest_version": 2,
+    "name": "BlockWatch",
+    "description": "Displays current price of a certain crypto and tells users the optimal time to buy it.",
+    "version": "1.0",
+    "icons": {
+        "16": "/images/cat16p.png",
+        "48": "/images/cat48p.png",
+        "128": "/images/cat128p.png"
+    },
+    "permissions": ["https://api.coingecko.com/", "http://api.alternative.me/*"],
+    "browser_action": {
+        "default_icon": "/images/cat128p.png",
+        "default_title": "BlockWatch",
+        "default_popup": "index.html"
+    }
+}   

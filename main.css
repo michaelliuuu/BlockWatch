@@ -1,0 +1,52 @@
+body {
+    background: url('images/bg.jpeg') no-repeat center center fixed;
+    background-size: cover;
+}
+.title {
+    color: white;
+    text-align: center;
+    margin-top: 40px;
+}
+.currentEtheriumPrice {
+    color: rgb(175, 67, 202);
+    text-align: center;
+}
+.currentBitcoinPrice {
+    color:rgb(232, 225, 153);
+    text-align: center;
+}
+img {
+    max-height: 125px;
+    max-width: 125px;
+    margin-top: 20px;
+}
+.fearGreedIndex {
+    color: white;
+    text-align: center;
+}
+#footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 30px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 10px;
+    font-size: 12px;
+}
+#footer p {
+    margin: 0;
+}
+#footer span {
+    font-weight: bold;
+    margin: 0 5px;
+}
+#time {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
