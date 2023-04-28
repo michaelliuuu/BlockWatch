@@ -78,10 +78,12 @@ img {
 #footer p {
     margin: 0;
 }
+
 #footer span {
     font-weight: bold;
     margin: 0 5px;
 }
+
 #time {
     position: absolute;
     bottom: 0;
