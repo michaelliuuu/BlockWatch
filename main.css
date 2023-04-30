@@ -62,7 +62,7 @@ img {
 }
 
 #footer {
-    position: fixed;
+    position: absolute;
     bottom: 0;
     left: 0;
     right: 0;
@@ -70,13 +70,30 @@ img {
     background-color: black;
     color: white;
     display: flex;
-    justify-content: flex-end;
     align-items: center;
     padding-right: 10px;
     font-size: 12px;
 }
+
 #footer p {
     margin: 0;
+    position: absolute;
+    top: 15px;
+    transform: translateY(-50%);
+    white-space: nowrap;
+    animation: move 5s linear infinite;
+}
+
+/* Time moves from left to right */
+@keyframes move {
+    0% {
+        opacity: 1;
+        left: -100%;
+    }
+    100% {
+        opacity: 1;
+        left: 100%;
+    }
 }
 
 #footer span {
