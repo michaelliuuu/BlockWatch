@@ -8,7 +8,7 @@
 
 body {
     width: 400px;
-    height: 400px;
+    height: 800px;
     background: url('images/bg1.jpeg');
     background-position: center center;
     background-repeat: no-repeat;
@@ -24,7 +24,7 @@ body {
 
 .container{
     position: relative;
-    top: 90px;
+    top: 20px;
     left: 50px;
     width: 300px;
     height: 75px;
@@ -34,17 +34,29 @@ body {
     font-family: 'Roboto', sans-serif;
     display: flex;
     justify-content: center;
-    align-items: center;
+    transition: 0.5s ease-out;
 }
 
 .currentEtheriumPrice {
     color: rgb(175, 67, 202);
     text-align: center;
+    margin-top: 20px;
+}
+
+.currentEtheriumPrice:hover {
+    cursor: pointer;
+    text-decoration: underline;
 }
 
 .currentBitcoinPrice {
     color:rgb(232, 225, 153);
     text-align: center;
+    margin-top: 20px;
+}
+
+.currentBitcoinPrice:hover {
+    cursor: pointer;
+    text-decoration: underline;
 }
 
 img {
@@ -106,3 +118,15 @@ img {
     bottom: 0;
     left: 0;
 }
+
+/* .fadeIn {
+    animation: 0.5s fadeIn forwards;
+    animation-delay: 0.5s;
+}
+
+@keyframes fadeIn {
+    to {
+        scale: 1;
+        opacity: 1;
+    }
+} */
