@@ -2,7 +2,8 @@
     "manifest_version": 2,
     "name": "BlockWatch",
     "description": "Displays current price of a certain crypto and tells users the optimal time to buy it.",
-    "version": "1.0",
+    "version": "2.0",
+    "content_security_policy": "script-src 'self' https://cdnjs.cloudflare.com; object-src 'self'",
     "icons": {
         "16": "/images/cat16p.png",
         "48": "/images/cat48p.png",

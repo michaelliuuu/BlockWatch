@@ -32,9 +32,12 @@ body {
     overflow: hidden;
     border-radius: 18px;
     font-family: 'Roboto', sans-serif;
-    display: flex;
     justify-content: center;
     transition: 0.5s ease-out;
+}
+
+.priceContainer {
+    display: flex;
 }
 
 .currentEtheriumPrice {
@@ -46,6 +49,20 @@ body {
 .currentEtheriumPrice:hover {
     cursor: pointer;
     text-decoration: underline;
+}
+
+#ethChartContainer {
+    margin-top: 60px;
+    background: #fff;
+    overflow: hidden;
+    border-radius: 18px;
+    width: 275px;
+    height: 160px;
+    margin-left: 12.5px;
+}
+
+#ethChart {
+    margin-top: 10px;
 }
 
 .currentBitcoinPrice {

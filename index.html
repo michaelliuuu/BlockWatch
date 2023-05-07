@@ -1,21 +1,27 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset="UTF-8">
-  <title>BlockWatch</title>
-  <link rel="stylesheet" type="text/css" href="main.css">
-</head>
-<body>
-  <h1 class="title">Is it a good time to buy crypto? </h1>
-  <img id="image">
-  <h3 class="fearGreedIndex" id="message1"></h3>
-  <div class="container">
-    <h3 class="currentEtheriumPrice" id="message"></h3>
-    <h3 class="currentBitcoinPrice" id="message2"></h3>
-  </div>
-  <div id="footer">
-    <p>Last updated at <span id="update-time"></span> <span id="timezone"></span></p>
-  </div>
-  <script src="popup.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8">
+    <title>BlockWatch</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+  </head>
+  <body>
+    <h1 class="title">Is it a good time to buy crypto? </h1>
+    <img id="image">
+    <h3 class="fearGreedIndex" id="message1"></h3>
+    <div class="container">
+      <div class="priceContainer">
+        <h3 class="currentEtheriumPrice" id="message"></h3>
+        <h3 class="currentBitcoinPrice" id="message2"></h3>
+      </div>
+      <div id="ethChartContainer">
+        <canvas id="ethChart"></canvas> 
+      </div>
+    </div>
+    <div id="footer">
+      <p>Last updated at <span id="update-time"></span> <span id="timezone"></span></p>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.min.js"></script>
+    <script src="popup.js"></script>
+  </body>
 </html>
